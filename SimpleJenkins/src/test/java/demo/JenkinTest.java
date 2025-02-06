@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class JenkinTest {
 	@Test
 	public void sample() {
-		Reporter.log("Lenkins class executed");
+		Reporter.log("Lenkins class executed",true);
 	}
 
 }
